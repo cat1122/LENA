@@ -1,0 +1,280 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+html,body,header{
+    height: 100%;
+}
+
+.nav-wrapper{
+    height: 100px;
+    display: flex;
+    padding: 0 100px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topnav{
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+} 
+
+.logo-link{
+    font-size:36px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav-link{
+    font-size:14px;
+    font-family: Roboto;
+    font-weight: lighter;
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: 838383;
+}
+
+.search{
+    background-image: url(search.png);
+    background-position: 0px center;
+    background-repeat: no-repeat;
+    background-size: 12px 12px;
+    -webkit-background-size: 12px 12px;
+    border: none;
+    padding: 20px;
+    outline: none;
+    font-size:14px;
+    font-family: Roboto;
+    font-weight: lighter;
+}
+
+
+.header{
+    background-image: url(фон.jpg);
+    background-repeat: no-repeat;
+    height: calc(100%-200px);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.header-box{
+    text-align: center;
+}
+
+.h1{    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    margin-bottom: 20px;
+
+}
+
+.subtitle{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 21px;
+    margin-bottom: 50px;
+}
+
+.our-services-bt{
+    width: 260px;
+    height: 70px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    background-color: transparent;
+    border: 1px solid;
+    color: white;
+}
+
+.buy-now-bt{
+    width: 260px;
+    height: 70px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    background-color: #09FFF0;
+    color: black;
+    border: none;
+}
+
+.Features{
+    text-align: center;
+    padding: 100px 0;
+}
+
+.Items{
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+h2{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+h3{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 30px 0;
+}
+
+p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.Services{
+    background-color: #EFFBFE;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.firstimg{
+    max-width: 60%;
+    max-height: auto;
+}
+
+
+.Second-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+
+}
+.itemf{
+    width: 30%;
+    align-items: center;
+    text-align: center;
+}
+
+.item{
+    width: 30%;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px;
+    transition: 0.4s;
+    background-size: 100px 50px;
+}
+
+.bt_Далее{
+    width: 190px;
+    height: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    background-color: transparent;
+    border: 1px solid;
+    color: black;
+    margin-top: 30px;
+
+}
+
+.item:hover{
+    background-color: #09FFF0;
+    box-shadow: 0 0 50px #66ABA8;
+    transform: scale(1.1);
+}
+
+.Description{
+    width: 900px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.Cases{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    justify-content: center;
+    margin:auto;
+}
+
+.elements{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left,.right{
+    max-width: 600px;
+}
+
+.numbers{
+    font-size: 92px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.element{
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.cimg{
+    max-width: 600px;
+    margin-top: 60px;
+}
+
+footer{
+    background-color: #EFFBFE;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 100px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.third{
+    margin: 100px 0;
+}
+
+
+
+
+
+
+
+
